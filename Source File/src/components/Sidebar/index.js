@@ -18,7 +18,6 @@
              <SidebarWrapper>
                  <SidebarMenu>
                      <SidebarLink to='about'onClick={toggle}>About</SidebarLink>
-                     <SidebarLink to='skills'onClick={toggle}>Skills</SidebarLink>
                      <SidebarLink to='services'onClick={toggle}>Services</SidebarLink>
                      <SidebarLink to='portfilo'onClick={toggle}>Portfilo</SidebarLink>
                      <SidebarLink to='contactme'onClick={toggle}>Contact Me</SidebarLink>

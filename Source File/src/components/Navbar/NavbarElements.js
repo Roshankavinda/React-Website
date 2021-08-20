@@ -3,9 +3,9 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll' 
 
 export const Nav = styled.nav`
-   background: #3EB489;
+   background: #6A5ACD;
    height: 80px;
-   //margin-top: -80px;
+   //margin-top: -40px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -103,14 +103,14 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #C3FDB8;
+    background: #D891EF;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
     font-size: 16px;
     outline: none;
     border-style: solid;
-    border-color: #64E986;
+    border-color: #fff;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;

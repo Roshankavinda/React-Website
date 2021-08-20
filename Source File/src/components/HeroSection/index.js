@@ -1,15 +1,17 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4';
+import { Button } from '../ButtonElement';
 import { 
     HeroContainer,
     HeroBg,
     VideoBg,
     HeroContent,
     HeroH1,
+    HeroH2,
     HeroP,
     HeroBtnWrapper,
     ArrowForward,
-    ArrowRight
+    ArrowRight,
 } from './HeroElements'
 
 const HeroSection = () => {
@@ -25,15 +27,17 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Virtual Banking Made Easy</HeroH1>
+                <HeroH1>Hello!</HeroH1>
+                <HeroH2>I'm Roshan Wickramasooriya</HeroH2>
                 <HeroP>
-                    Sign up for new account today and receive $250 in credit towards your
-                     next payment.
+                    Undergraduate Software Engineering student. I will do Web Development & UI UX Design.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={onHover}
-                    onMouseLeave={onHover}>
-                     Get started {hover ? <ArrowForward/> : <ArrowRight/>}
+                    onMouseLeave={onHover}
+                    primary= 'true'
+                    dark = 'true'>
+                     Contact {hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
