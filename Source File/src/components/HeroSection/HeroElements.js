@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height:550px;
     position: relative;
     z-index: 1;
 
@@ -39,13 +39,14 @@ export const HeroBg = styled.div`
 export const VideoBg = styled.video`
    width: 100%;
    height: 100%;
+   opacity: 30%;
    -o-object-fit: cover;
    object-fit: cover;
    background: #232a34;
 `;
 
 export const HeroContent = styled.div`
-   margin-top: -250px;
+   margin-top: 0;
    margin-left: 500px;
    z-index: 3;
    max-width: 1200px;
@@ -57,7 +58,7 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-   color: black;
+   color: white;
    font-size: 48px;
    text-align: center;
    font-family: "Papyrus", "Copperplate", Fantasy;
@@ -72,7 +73,7 @@ export const HeroH1 = styled.h1`
    }
 `
 export const HeroH2 = styled.h2`
-   color: black;
+   color: white;
    font-size: 48px;
    text-align: center;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -80,8 +81,8 @@ export const HeroH2 = styled.h2`
 
 export const HeroP = styled.p`
    margin-top: 24px;
-   color: #2C3539;
-   font-weight: bold;
+   color: white;
+   
    font-size: 24px;
    text-align: center;
    max-width: 600px;

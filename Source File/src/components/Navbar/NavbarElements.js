@@ -3,7 +3,7 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll' 
 
 export const Nav = styled.nav`
-   background: #6A5ACD;
+   background: #799E89;
    height: 80px;
    //margin-top: -40px;
    display: flex;
@@ -76,7 +76,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-   color: #0C090A;
+   color: white;
    display: flex;
    align-items: center;
    text-decoration: none;
@@ -89,6 +89,18 @@ export const NavLinks = styled(LinkS)`
 
    &.active{
       border-bottom: 3px solid #01bf71;
+   }
+
+   &:hover{
+      transition: all 0.2s ease-in-out;
+      background: #DCF3E1;
+      color: #010606;
+      border-radius: 15px;
+      border-top-left-radius: 90px;
+      border-top-right-radius: 90px;
+      border-bottom-left-radius: 90px;
+      border-bottom-right-radius: 90px;
+      border-top-width: -100px;
    }
 `;
 
@@ -103,7 +115,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #D891EF;
+    background: #76F9BD;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
@@ -118,9 +130,9 @@ export const NavBtnLink = styled(LinkR)`
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    &.hover{
-       transition: all 0.2s ease-in-out;
-       background: #fff;
-       color: #010606;
-    }
+    &:hover{
+      transition: all 0.2s ease-in-out;
+      background: #FD9DB4;
+      color: #010606;
+   }
 `
