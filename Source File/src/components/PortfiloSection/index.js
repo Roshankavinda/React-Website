@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from '../ButtonElements';
-import About from '../../images/about.svg'
+import Portfilo from '../../images/portfilo.jpg';
 
 import { 
     InfoContainer,
@@ -13,9 +13,9 @@ import {
     Heading,
     Subtitle,
     BtnWrap,
-} from './InfoElements';
+} from './PortfiloElements';
 
-const InfoSection = ({
+const PortfiloSection = ({
     lightBg, 
     id, 
     imgStart, 
@@ -54,7 +54,7 @@ const InfoSection = ({
                        </TextWrapper>
                      </Column1>
                      <Column2>
-                       <img src={About} width="500px" alt="about"/>
+                       <img src={Portfilo} style={{width:"580px",borderRadius:"5%",borderStyle:"inset", marginTop:"100px", height:"400px"}} alt="portfilo"/>
                      </Column2>
                  </InfoRow>
              </InfoWrapper>
@@ -63,4 +63,4 @@ const InfoSection = ({
     );
 };
 
-export default InfoSection;
+export default PortfiloSection;

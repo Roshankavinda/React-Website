@@ -10,8 +10,6 @@ export const Button = styled(Link)`
    font-weight: bold;
    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
    outline: none;
-   border-style: solid;
-   border-color: white;
    cursor: pointer;
    display: flex;
    justify-content: center;

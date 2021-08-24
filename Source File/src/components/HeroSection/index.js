@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video 4.mp4';
 import { Button } from '../ButtonElements';
+import Profile from '../../images/profile.svg';
 import { 
     HeroContainer,
     HeroBg,
@@ -26,6 +27,7 @@ const HeroSection = () => {
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
+            <img src={Profile} style={{width:"450px", marginLeft:"-750px", marginTop:"0px", height:"600px"}} alt="profile"/>
             <HeroContent>
                 <HeroH1>Hello!</HeroH1>
                 <HeroH2>I'm Roshan Wickramasooriya</HeroH2>
@@ -40,6 +42,7 @@ const HeroSection = () => {
                      Contact {hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
+                
             </HeroContent>
         </HeroContainer>
     );

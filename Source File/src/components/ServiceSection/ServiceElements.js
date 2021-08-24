@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
    color: #fff;
-   background: ${({lightBg}) => (lightBg ? '#364638' : '#364638')};
+   background: ${({lightBg}) => (lightBg ? '#E8F0EB' : '#E8F0EB')};
 
    @media screen and (max-width: 768px){
        padding: 100px 0;
@@ -33,14 +33,16 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 150px;
+    margin-left: 600px;
     padding: 0 15px;
     grid-area: col1;
-    margin-top: 100px;
+    margin-top: -380px;
 `;
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
+    margin-top: 100px;
     padding: 0 15px;
     grid-area: col2;
 `;
@@ -52,7 +54,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-   color: #EA92A2 ;
+   color: #EB5752 ;
    font-size: 30px;
    line-height: 16px;
    letter-spacing: 1.4px;
@@ -66,7 +68,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+    color: ${({lightText}) => (lightText ? 'black' : 'black')};
     
     @media screen and (max-width: 480px){
         font-size: 32px;
@@ -78,7 +80,7 @@ export const Subtitle = styled.p`
    margin-bottom: 35px;
    font-size: 18px;
    line-height: 24px;
-   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+   color: ${({darkText}) => (darkText ? 'black' : 'black')};
 `;
 
 export const BtnWrap = styled.div`
