@@ -1,5 +1,5 @@
 export const homeObjThree = {
-    id: 'about',
+    id: 'portfilo',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from '../ButtonElements';
-import Service from '../../images/service.svg';
+import Service from '../../images/contact.svg';
 
 import { 
     InfoContainer,
@@ -13,9 +13,9 @@ import {
     Heading,
     Subtitle,
     BtnWrap,
-} from './ServiceElements';
+} from './ContactElements';
 
-const ServiceSection = ({
+const ContactSection = ({
     lightBg, 
     id, 
     imgStart, 
@@ -35,7 +35,7 @@ const ServiceSection = ({
              <InfoWrapper>
                  <InfoRow imgStart={imgStart}>
                      <Column1>
-                     <img src={Service} style={{width:"500px",marginTop:"-100px",marginRight:"500px", height:"400px"}} alt="service"/>
+                     <img src={Service} style={{width:"500px",marginTop:"0px",marginRight:"550px", height:"400px"}} alt="service"/>
                      </Column1>
                      <Column2>
                       
@@ -64,4 +64,4 @@ const ServiceSection = ({
     );
 };
 
-export default ServiceSection;
+export default ContactSection;

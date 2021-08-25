@@ -33,18 +33,19 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 150px;
-    margin-left: 600px;
+   
+    margin-bottom: 15px;
+    margin-top: 0px;
     padding: 0 15px;
     grid-area: col1;
-    margin-top: -380px;
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
-    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: -400px;
     padding: 0 15px;
     grid-area: col2;
+    margin-top: 100px;
 `;
 
 export const TextWrapper = styled.div`

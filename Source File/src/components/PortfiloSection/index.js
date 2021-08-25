@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from '../ButtonElements';
-import Portfilo from '../../images/portfilo.jpg';
+import Contact from '../../images/portfilo.jpg';
 
 import { 
     InfoContainer,
@@ -54,7 +54,7 @@ const PortfiloSection = ({
                        </TextWrapper>
                      </Column1>
                      <Column2>
-                       <img src={Portfilo} style={{width:"580px",borderRadius:"5%",borderStyle:"inset", marginTop:"100px", height:"400px"}} alt="portfilo"/>
+                       <img src={Contact} style={{width:"550px",borderRadius:"5%",borderStyle:"inset", marginTop:"80px", height:"380px"}} alt="contact"/>
                      </Column2>
                  </InfoRow>
              </InfoWrapper>
