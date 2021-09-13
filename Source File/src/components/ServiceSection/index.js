@@ -35,7 +35,7 @@ const ServiceSection = ({
              <InfoWrapper>
                  <InfoRow imgStart={imgStart}>
                      <Column1>
-                     <img src={Service} style={{width:"500px",marginTop:"-100px",marginRight:"500px", height:"400px"}} alt="service"/>
+                     <img src={Service} style={{width:"500px",marginTop:"-80px",marginRight:"500px", height:"400px"}} alt="service"/>
                      </Column1>
                      <Column2>
                       

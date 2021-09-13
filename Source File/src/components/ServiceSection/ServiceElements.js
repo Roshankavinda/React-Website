@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
    display: grid;
    z-index: 1;
-   height: 600px;
+   height: 630px;
    width: 100%;
    max-width: 1100px;
    margin-right: auto;
@@ -45,7 +45,7 @@ export const Column2 = styled.div`
     margin-left: -400px;
     padding: 0 15px;
     grid-area: col2;
-    margin-top: 100px;
+    margin-top: 160px;
 `;
 
 export const TextWrapper = styled.div`
