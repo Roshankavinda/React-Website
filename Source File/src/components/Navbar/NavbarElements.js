@@ -88,7 +88,7 @@ export const NavLinks = styled(LinkS)`
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
    &.active{
-      border-bottom: 3px solid #01bf71;
+      border-bottom: 3px solid red;
    }
 
    &:hover{

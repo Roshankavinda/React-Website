@@ -6,11 +6,14 @@ import InfoSection from '../components/InfoSection';
 import ServiceSection from '../components/ServiceSection';
 import PortfiloSection from '../components/PortfiloSection';
 import ContactSection from '../components/ContactSection';
+import SignupSection from '../components/SignupSection';
 import { homeObjOne} from '../components/InfoSection/Data';
 import { homeObjTwo } from '../components/ServiceSection/Data';
 import { homeObjThree } from '../components/PortfiloSection/Data';
 import { homeObjFour } from '../components/ContactSection/Data';
+import { homeObjFive } from '../components/SignupSection/Data';
 import Footer from '../components/Footer';
+
 
 const Home = () => {
     const[isOpen, setIsOpen] = useState(false)
@@ -29,6 +32,7 @@ const Home = () => {
           <ServiceSection {...homeObjTwo}/>
           <PortfiloSection {...homeObjThree}/>
           <ContactSection {...homeObjFour}/>
+          <SignupSection {...homeObjFive}/>
           <Footer/>
         </>
     );

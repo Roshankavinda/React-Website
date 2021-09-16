@@ -18,29 +18,71 @@ const Navbar = ({toggle}) => {
         <>
           <Nav>
             <NavbarContainer>
-                <NavLogo to='/'> Hello!</NavLogo>
+                <NavLogo to="/"> Hello!</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars/>
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                         <NavLinks to="about">About</NavLinks>
+                         <NavLinks 
+                         to="about"
+                         smooth={true} 
+                         duration={500} 
+                         spy={true} 
+                         exact='true' 
+                         offset={-80}
+                         >About</NavLinks>
                     </NavItem>
                     <NavItem>
-                         <NavLinks to="services">Services</NavLinks>
+                         <NavLinks 
+                         to="services"
+                         smooth={true} 
+                         duration={500} 
+                         spy={true} 
+                         exact='true' 
+                         offset={-80}
+                         >Services</NavLinks>
                     </NavItem>
                     <NavItem>
-                         <NavLinks to="portfilo">Portfilo</NavLinks>
+                         <NavLinks 
+                         to="portfilo"
+                         smooth={true} 
+                         duration={500} 
+                         spy={true} 
+                         exact='true' 
+                         offset={-80}
+                         >Portfilo</NavLinks>
                     </NavItem>
                     <NavItem>
-                         <NavLinks to="contactme">Contact Me</NavLinks>
+                         <NavLinks 
+                         to="contactme"
+                         smooth={true} 
+                         duration={500} 
+                         spy={true} 
+                         exact='true' 
+                         offset={-80}
+                         >Contact Me</NavLinks>
                     </NavItem>
                     <NavItem>
-                         <NavLinks to="signup">Sign Up</NavLinks>
+                         <NavLinks 
+                         to="signup"
+                         smooth={true} 
+                         duration={500} 
+                         spy={true} 
+                         exact='true' 
+                         offset={-80}
+                         >Sign Up</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink  to="/signin">Sign In</NavBtnLink>
+                    <NavBtnLink  
+                    to="/signin"
+                    smooth={true} 
+                    duration={500} 
+                    spy={true} 
+                    exact='true' 
+                    offset={-80}
+                    >Sign In</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
           </Nav>
